@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "A simple command-line app using Node.js along with Commander and Chalk",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Augustoren/node-password-generator/issues"
   },
-  "homepage": "https://github.com/Augustoren/node-password-generator#readme"
+  "homepage": "https://github.com/Augustoren/node-password-generator#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "clipboardy": "^2.0.0",
+    "commander": "^8.3.0"
+  }
 }
